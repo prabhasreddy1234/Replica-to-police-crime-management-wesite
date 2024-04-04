@@ -1,0 +1,44 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navele {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  .navele:last-child {
+    border-left:1px solid #bbb;
+  }
+  .h{
+      float:right;
+      width: 790px;
+      color: red;
+      margin-top: 9px;
+      font-size: 18px;
+      
+  }
+  
+  .navele a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .a{
+       list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  
+  li a:hover:not(.active) {
+    background-color:#4edb35;
+  }
